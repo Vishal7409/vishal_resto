@@ -1,0 +1,74 @@
+/* media querry */
+
+@media (max-width:600px) {
+    
+    
+    .outer{
+        display: none;
+    }
+   
+    .container img{
+        width: 50%;
+    }
+    .container-list{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+
+    .main-container{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    .content{
+        overflow: hidden;
+        width: 100%;
+        font-size: 15vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25vh;
+    }
+    #paracont{
+        width: 100%;
+        font-size: 6vw;
+        margin: 5vh 0;
+    }
+    #btncenter{
+        width: 50%;
+        font-size: 4vw;
+    }
+    .bookbtn{
+        width: 80%;
+        padding-top: 5vh;
+    }
+    .booktable{
+        width: 29%;
+        
+    }
+    #bookborder{
+        width: 27vw;
+        height: 17vw;
+        position: relative;
+        left: 27.5vw;
+    }
+
+    
+
+#sechead{
+    width: 100%;
+    font-size: 4vw;
+    height: 2vh;
+}
+
+.twoheading{
+    width: 90vw;
+    font-size: 9vw;
+}
+#paraSec{
+    width: 100%;
+}
+}
